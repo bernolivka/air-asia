@@ -1,0 +1,24 @@
+.socials {
+  margin-right: 70px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.socials__item :last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.social__icon:hover {
+  filter: brightness(2.5);
+}
