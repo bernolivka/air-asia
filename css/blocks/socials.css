@@ -1,5 +1,7 @@
-.socials {
+
+/*.socials {
   margin-right: 70px;
+  display: inline-block;
 }
 
 .socials__item {
@@ -19,6 +21,54 @@
   height: 36px;
 }
 
+.social__item {
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
 .social__icon:hover {
   filter: brightness(2.5);
+}
+*/
+
+.socials {
+  display: flex;
+  margin-right: 72px;
+}
+
+li a span {
+  display: inline-block;
+  background: url(../../images/sprite.png) no-repeat;
+  height: 43px;
+  width: 43px;
+
+}
+
+.socials__icon:nth-child(1) a span {
+  background-position: -6px -239px;
+}
+.socials__icon:nth-child(1) a:hover span {
+  background-position: -5px -192px
+}
+.socials__icon:nth-child(2) a span {
+  background-position: -5px -335px;
+}
+.socials__icon:nth-child(2) a:hover span {
+  background-position: -5px -288px
+}
+.socials__icon:nth-child(3) a span {
+  background-position: -2px -47px;
+}
+.socials__icon:nth-child(3) a:hover span {
+  background-position: -2px 0
+}
+.socials__icon:nth-child(4) a span {
+  background-position: 0 -143px
+}
+.socials__icon:nth-child(4) a:hover span {
+  background-position: 0 -97px
 }

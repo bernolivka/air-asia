@@ -17,3 +17,14 @@
 @import url(./blocks/top-line.css);
 @import url(./blocks/page-content.css);
 @import url(./blocks/inner-section.css);
+
+@import url(./blocks/avatar.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/tags.css);
+@import url(./blocks/middle-line.css);
+@import url(./blocks/feedback.css);
+@import url(./blocks/form_row.css);
+@import url(./blocks/controls.css);
+
+@import url(./blocks/welcome.css);
+@import url(./blocks/welcome-animation.css);

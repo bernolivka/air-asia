@@ -1,0 +1,16 @@
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 9px 15px 9px 16px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+
+.tag--bg--aqua {
+  background: #B9EAE4;
+}

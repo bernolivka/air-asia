@@ -1,0 +1,23 @@
+.welcome {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../images/background/welcome-page-bg.png) center bottom / cover no-repeat ;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central__desc {
+  font-size: 18px;
+  margin-bottom: 45px;
+
+}
