@@ -13,13 +13,13 @@
       <div class="container top-line__container">
         <header class="header">
           <div class="header__col">
-            <a href="index.html" class="logo">
+            <a href="main.html" class="logo">
               <img src="images/logo/лого.png" alt="logo" class="logo__pic">
             </a>
            <nav class="menu">
              <ul class="menu__list">
                <li class="menu__item">
-                 <a href="index.html" class="menu__link">Главная</a>
+                 <a href="main.html" class="menu__link">Главная</a>
                </li>
                <li class="menu__item menu__item">
                  <a href="services.html" class="menu__link">Услуги</a>
@@ -34,7 +34,7 @@
             <address class="contact">
               <a href="tel:+78007003030" class="contact__number">8 800 700 30 30</a>
               <div class="contact__schedule">
-                <a href="#" alt="#"class="contact__dropdown-title">График работы</a>
+                <a href="#" alt="work-hours"class="contact__dropdown-title">График работы</a>
                 <div class="contact__drop">
                   <ul class="contact__list">
                     <li class="contact__item"><strong>пн-вс: 09:00 - 20:00</strong></li>
@@ -49,7 +49,7 @@
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
-              <a href="index.html" class="breadcrumbs__link">Главная</a>
+              <a href="main.html" class="breadcrumbs__link">Главная</a>
              </li>
              <li class="breadcrumbs__item breadcrumbs__item--ictive">
                <a href="#" class="breadcrumbs__link">Отзывы</a>
@@ -65,7 +65,7 @@
             <div class="review__header">
               <div class="review__photo">
                 <div class="avatar">
-                  <img src="images/photos/ginger.png" alt="photo" class="avatar">
+                  <img src="images/photos/ginger.png" alt="photo" class="avatar__picture">
                 </div>
               </div>
               <div class="review__userdata">
@@ -86,7 +86,7 @@
             <div class="review__header">
               <div class="review__photo">
                 <div class="avatar">
-                  <img src="images/photos/liza.png" alt="photo" class="avatar">
+                  <img src="images/photos/liza.png" alt="photo" class="avatar__picture">
                 </div>
               </div>
               <div class="review__userdata">
@@ -107,7 +107,7 @@
             <div class="review__header">
               <div class="review__photo">
                 <div class="avatar">
-                  <img src="images/photos/girl.png" alt="photo" class="avatar">
+                  <img src="images/photos/girl.png" alt="photo" class="avatar__picture">
                 </div>
               </div>
               <div class="review__userdata">
@@ -128,7 +128,7 @@
             <div class="review__header">
               <div class="review__photo">
                 <div class="avatar">
-                  <img src="images/photos/boy.png" alt="photo" class="avatar">
+                  <img src="images/photos/boy.png" alt="photo" class="avatar__picture">
                 </div>
               </div>
               <div class="review__userdata">
@@ -190,61 +190,61 @@
             <input type="text" placeholder="Ссылка на профиль" class="form__input">
           </div>
           <div class="form__row">
-            <textarea class="form__input form__input--textarea">
-            </textarea>
+           <textarea placeholder="Напишите свой честный отзыв ;)" class="form__input form__input--textarea"></textarea>
           </div>
-       </form>
-        <div class="form__controls">
-          <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
-          <ul class="controls">
-            <li class="controls__item">
-              <label class="controls__elem">
-               <input type="checkbox" class="controls__checkbox">
-               <div class="tag controls__tag">Остров обезьян</div>
+          <div class="form__controls">
+            <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
+            <ul class="controls">
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Остров обезьян</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Тайланду</div>
               </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Тур по Тайланду</div>
-            </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Водопад Янг-бей</div>
-            </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Тур по Индонезии</div>
-            </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Никакими</div>
-            </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Тур по Бали</div>
-            </label>
-            </li>
-            <li class="controls__item">
-            <label class="controls__elem">
-              <input type="checkbox" class="controls__checkbox">
-              <div class="tag controls__tag">Другое</div>
-            </label>
-            </li>
-         </ul>
-        </div>
-        <div class="form__buttons">
-          <button type="reset" class="button form__button button_type_review">Очистить</button>
-          <button type="submit" class="button form__button button_type_main">Отправить</button>
-        </div>
+             </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox" checked="checked">
+                <div class="tag controls__tag">Водопад Янг-бей</div>
+              </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                 <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Индонезии</div>
+              </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Никакими</div>
+               </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Бали</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox" checked="checked">
+                  <div class="tag controls__tag">Другое</div>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="form__buttons">
+            <button  type="reset" class="button form__button button_type_review">Очистить</button>
+            <button type="submit" class="button form__button button_type_main">Отправить</button>
+          </div>
+          
+        </form>
       </div>
     </section>
 
@@ -252,13 +252,13 @@
     <footer class="container">
       <div class="footer">
         <div class="footer__col">
-           <a href="index.html" class="logo">
+           <a href="main.html" class="logo">
               <img src="images/logo/лого.png" alt="logo" class="logo__pic">
            </a>
            <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="index.html" class="menu__link">Главная</a>
+                <a href="main.html"  class="menu__link">Главная</a>
               </li>
               <li class="menu__item ">
                 <a href="services.html" class="menu__link">Услуги</a>

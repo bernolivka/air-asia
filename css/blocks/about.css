@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 56px;
+  margin-bottom: 47px;
 }
 
 .about {
@@ -20,7 +20,7 @@
   vertical-align: top;
   background: url("../../images/about/mauntains.png");
   background-size: cover;
-  padding: 72px 200px 66px 84px;
+  padding: 72px 200px 72px 84px;
   background-repeat: no-repeat;
   border-radius: 5px;
 }

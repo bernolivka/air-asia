@@ -11,6 +11,7 @@ body {
 
 body, html {
   height: 100%;
+ 
 }
 
 .button {
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #060606;
   margin-top: 0;
-  margin-bottom: 39px;
+  margin-bottom: 27px;
   line-height: 27px;
 }
 
@@ -62,6 +63,6 @@ p {
 
 img {
   max-width: 100%;
-
+  display: block;
 }
 

@@ -4,6 +4,8 @@
 }
 
 .contact__number {
+  margin-bottom: -10px;
+  display: block;
   text-decoration: none;
   font-size: 26px;
 }
@@ -21,11 +23,12 @@
   background: #EDEDED;
   opacity: .8;
   border-radius: 5px;
-  padding: 16px 20px;
-  width: 180px;
-  margin-top: 9px;
+  padding: 16px 19px;
+  width: 160px;
+  margin-top: 2px;
   position: absolute;
-  right: -9999px;
+  /*right: -999px;*/
+ 
   opacity: 0;
   transition: opacity .3s;
 }

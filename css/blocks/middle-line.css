@@ -3,7 +3,7 @@
   min-height: 363px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .middle-line__content {
@@ -13,14 +13,10 @@
 
 .middle-line__title {
   display: flex;
-  justify-content: center;
-  padding-top: 121px;
+  align-items: center;
+  margin-bottom: 29px;
   font-size: 48px;
   font-weight: bold;
   max-width: 54%;
   line-height: 1.3;
-}
-
-.middle-line__picture {
-  padding-top: 22px;
 }

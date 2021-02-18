@@ -11,6 +11,12 @@
 }
 
 .central {
+  background: url(../../images/background/shades.png) center center / cover no-repeat;
+  width: 571px;
+  height: 171px;
+}
+
+.central {
   display: flex;
   flex-direction: column;
   align-items: center;

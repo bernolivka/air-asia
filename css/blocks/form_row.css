@@ -6,13 +6,21 @@
 .form__input {
   flex: 1;
   margin-right: 28px;
+  padding-left: 24px;
   border-radius: 5px;
   border: none;
   background: #ffffff;
-  padding: 19px 30px;
+  height: 65px;
   font-size: 18px;
   color: #1A1B1E;
 }
+
+.form__input:focus {
+  background: transparent;
+  outline: 1px solid #F5170E;
+  box-shadow: 0 0 0 2px  #F5170E;
+}
+
 
 .form__input::placeholder {
   color: #666666;
@@ -24,4 +32,7 @@
 
 .form__input--textarea {
   height: 235px;
+  color: #666666;
+  padding-top: 31px;
+  resize: none;
 }
