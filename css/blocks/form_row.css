@@ -13,12 +13,11 @@
   height: 65px;
   font-size: 18px;
   color: #1A1B1E;
+  outline: none;
 }
 
 .form__input:focus {
-  background: transparent;
-  outline: 1px solid #F5170E;
-  box-shadow: 0 0 0 2px  #F5170E;
+ border: 1px solid #F5170E;
 }
 
 

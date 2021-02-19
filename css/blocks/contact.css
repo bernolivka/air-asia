@@ -19,7 +19,55 @@
   text-decoration: underline;
 }
 
+.contact__schedule {
+  position: relative;
+  display: inline-block;
+}
+
+.contact__schedule:hover .contact__drop {
+  right: 0;
+  opacity: 1;
+}
+
 .contact__drop {
+  position: absolute;
+  background: #EDEDED;
+  opacity: .8;
+  border-radius: 5px;
+  padding: 16px 19px;
+  width: 160px;
+  top: 100%;
+  margin-top: 9px;
+  opacity: 0;
+  transition: opacity .4s;
+  right: -9999px;
+}
+
+.contact__drop::before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
+.contact__drop:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-bottom-width: 9px;
+  border-bottom-color: #EDEDED;
+  border-top: 0;
+  position: absolute;
+  bottom: 100%;
+  right: 40px;
+}
+
+/*.contact__drop {
   background: #EDEDED;
   opacity: .8;
   border-radius: 5px;
@@ -27,7 +75,7 @@
   width: 160px;
   margin-top: 2px;
   position: absolute;
-  /*right: -999px;*/
+  right: -999px;
  
   opacity: 0;
   transition: opacity .3s;
@@ -59,7 +107,7 @@
   position: absolute;
   bottom: 100%;
   right: 0;
-}
+}*/
 
 .contact__item {
   font-size: 13px;
