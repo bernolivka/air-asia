@@ -10,9 +10,6 @@
   font-size: 26px;
 }
 
-.contact__schedule {
-  position: relative;
-}
 
 .contact__dropdown-title {
   font-size: 13px;
@@ -25,8 +22,9 @@
 }
 
 .contact__schedule:hover .contact__drop {
-  right: 0;
-  opacity: 1;
+  /*right: 0;
+  opacity: 1;*/
+  display: block;
 }
 
 .contact__drop {
@@ -38,9 +36,11 @@
   width: 160px;
   top: 100%;
   margin-top: 9px;
-  opacity: 0;
+  display: none;
+  right: 0;
+  /*opacity: 0;
   transition: opacity .4s;
-  right: -9999px;
+  right: -9999px;*/
 }
 
 .contact__drop::before {
@@ -108,6 +108,10 @@
   bottom: 100%;
   right: 0;
 }*/
+
+.contact__list {
+  text-align: left;
+}
 
 .contact__item {
   font-size: 13px;
