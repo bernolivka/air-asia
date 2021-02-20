@@ -40,35 +40,36 @@
   margin-right: 72px;
 }
 
-li a span {
+.socials__item{
   display: inline-block;
   background: url(../../images/sprite.png) no-repeat;
-  height: 43px;
-  width: 43px;
+  height: 36px;
+  width: 36px;
+  margin-left: 12px;
 
 }
 
-.socials__icon:nth-child(1) a span {
-  background-position: -6px -239px;
+.socials__item--icon--telegram {
+  background-position: -6px -246px;;
 }
-.socials__icon:nth-child(1) a:hover span {
-  background-position: -5px -192px;
+.socials__item--icon--telegram:hover {
+  background-position: -6px -198px;
 }
-.socials__icon:nth-child(2) a span {
-  background-position: -5px -335px;
+.socials__item--icon--vk {
+  background-position: -6px -342px;
 }
-.socials__icon:nth-child(2) a:hover span {
-  background-position: -5px -288px
+.socials__item--icon--vk:hover {
+  background-position: -6px -294px
 }
-.socials__icon:nth-child(3) a span {
-  background-position: -2px -47px;
+.socials__item--icon--fb {
+  background-position: -6px -54px;
 }
-.socials__icon:nth-child(3) a:hover span {
-  background-position: -2px 0
+.socials__item--icon--fb:hover {
+  background-position: -6px -6px
 }
-.socials__icon:nth-child(4) a span {
-  background-position: 0 -143px
+.socials__item--icon--insta {
+  background-position: -6px -150px
 }
-.socials__icon:nth-child(4) a:hover span {
-  background-position: 0 -97px
+.socials__item--icon--insta:hover {
+  background-position: -6px -102px
 }

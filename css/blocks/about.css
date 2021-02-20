@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 47px;
+  margin-bottom: 52px;
 }
 
 .about {
@@ -20,7 +20,7 @@
   vertical-align: top;
   background: url("../../images/about/mauntains.png");
   background-size: cover;
-  padding: 72px 200px 72px 84px;
+  padding: 72px 200px 67px 84px;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
@@ -29,18 +29,18 @@
   font-size: 36px;
   font-weight: bold;
   color: #000;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 
-.about__decs-text {
+.about__decs-text p {
   margin-bottom: 43px;
 }
 
-.abaut__desc-text p {
-  margin-bottom: 20px;
+/*.abaut__desc-text p {
+  margin-bottom: 35px;
   line-height: 27px;
 }
 
 .about__decs-text p:last-child {
   margin-bottom: 0;
-}
+}*/
