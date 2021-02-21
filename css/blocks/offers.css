@@ -3,10 +3,11 @@
 }
 
 .offers__title {
+  display: flex;
 font-size: 36px;
 font-weight: bold;
 font-style: normal;
-margin-bottom: 21px;
+margin-bottom: 49px;
 }
 
 .offers__list {
@@ -16,6 +17,7 @@ margin-bottom: 21px;
 
 .hot-tours__icon {
   margin-left: 16px;
+  align-self:center;
   vertical-align: middle;
 }
 
