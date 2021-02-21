@@ -5,14 +5,14 @@
 }
 
 .reviews__item {
-  margin-bottom: 21px;
+  margin-bottom: 25px;
   border-radius: 5px;
 }
 
 .review {
   display: inline-flex;
   flex-direction: column;
-  padding: 48px 37px 30px 29px;
+  padding: 52px 37px 24px 29px;
   background: #F4F5F5;
 }
 
@@ -34,6 +34,7 @@
   color: #2E77A4;
   margin-bottom: 5px;
 }
+
 
 .review__user::after {
   content: url(../../images/icons/reviews-icon/vk-blue\ 1.png);
