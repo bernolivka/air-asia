@@ -40,7 +40,7 @@
   margin-right: 72px;
 }
 
-.socials__item{
+.socials__link {
   display: inline-block;
   background: url(../../images/sprite.png) no-repeat;
   height: 36px;
@@ -49,27 +49,27 @@
 
 }
 
-.socials__item--icon--telegram {
+.socials__item--icon--telegram .socials__link {
   background-position: -6px -246px;;
 }
-.socials__item--icon--telegram:hover {
+.socials__item--icon--telegram .socials__link:hover {
   background-position: -6px -198px;
 }
-.socials__item--icon--vk {
+.socials__item--icon--vk .socials__link {
   background-position: -6px -342px;
 }
-.socials__item--icon--vk:hover {
+.socials__item--icon--vk .socials__link:hover {
   background-position: -6px -294px
 }
-.socials__item--icon--fb {
+.socials__item--icon--fb .socials__link {
   background-position: -6px -54px;
 }
-.socials__item--icon--fb:hover {
+.socials__item--icon--fb .socials__link:hover {
   background-position: -6px -6px
 }
-.socials__item--icon--insta {
+.socials__item--icon--insta .socials__link {
   background-position: -6px -150px
 }
-.socials__item--icon--insta:hover {
+.socials__item--icon--insta .socials__link:hover {
   background-position: -6px -102px
 }
