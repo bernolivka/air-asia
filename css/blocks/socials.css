@@ -40,13 +40,15 @@
   margin-right: 72px;
 }
 
+.social__item {
+  margin-left: 12px;
+}
+
 .socials__link {
   display: inline-block;
   background: url(../../images/sprite.png) no-repeat;
   height: 36px;
   width: 36px;
-  margin-left: 12px;
-
 }
 
 .socials__item--icon--telegram .socials__link {
